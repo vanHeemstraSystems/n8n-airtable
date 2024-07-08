@@ -1,6 +1,6 @@
 # 100 - Create a workflow in n8n
 
-Create a new workflow and add  a **Set** node to it. We'll need the **Set** node to make sure that we send well-formatted data to the **Airtable** node.
+Create a new workflow **Activity Data Management** and add  a **Set** node to it. We'll need the **Set** node to make sure that we send well-formatted data to the **Airtable** node.
 
 Open the **Set** node and add three values of ```String type```. For each of these three values, do the following.
 
