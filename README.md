@@ -1,7 +1,9 @@
-repository-name
-# Repository Name
+n8n-airtable
+# n8n Airtable
 
-Based on "ABC" at https://www.abc.com/
+Based on "n8n" at https://n8n.io
+
+Based on "Airtable" at https://airtable.com/
 
 ## 100 - Introduction
 
