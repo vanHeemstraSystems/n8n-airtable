@@ -23,5 +23,3 @@ Edit all the existing fields (see https://github.com/vanHeemstraSystems/noteplan
 Your table (re-name to: ```Activities```) should now look like this:
 
 ![create-a-new-base-004](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/fca794db-98ba-4c37-8b23-d9715aeb6304)
-
-MORE
