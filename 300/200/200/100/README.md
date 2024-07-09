@@ -46,9 +46,9 @@ Try it, by clicking **Test step**.
 
 ![Screenshot 2024-07-09 at 16 41 17](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/107d2720-484c-4977-b958-13e057d13db4)
 
-Connect the **Edit Fields** node to the **Execute Workflow** node.
+Connect the **Edit Fields** node to the **Execute Workflow** node by dragging the line from the **Edit Fields** node to the **Execute Workflow** node.
 
-
+![Screenshot 2024-07-09 at 16 43 06](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/9d1ac35a-4c5e-443c-9a85-06c0687f0f57)
 
 
 
