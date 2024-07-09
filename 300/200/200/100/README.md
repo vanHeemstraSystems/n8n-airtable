@@ -2,7 +2,7 @@
 
 In n8n, create a new workflow and name it **Activity Management**.
 
-![Screenshot 2024-07-09 at 15 30 44](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/66b69d0f-c8c3-4203-a619-11bbf84ed9f3)
+![Screenshot 2024-07-09 at 15 44 30](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/2b42d94f-df1c-404c-b1b1-52e752b21e32)
 
 Choose **Workflow** as the new step to be added to the empty composition workflow.
 
