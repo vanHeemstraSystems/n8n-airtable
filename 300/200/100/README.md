@@ -48,6 +48,20 @@ Choose Developer Hub:
 
 ![Screenshot 2024-07-09 at 11 29 53](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/9633ed73-2ae7-4cad-a1c6-3a6c109610d6)
 
+Name the Personal Access Token (PAT): **n8n_Personal_Access_Token**
+
+For Scopes choose:
+
+```
+data.records:read
+data.records:write
+schema.bases:read
+```
+
+And limit your Personal Access Token to our **Activity Management** Airtable.
+
+Click **Create token**.
+
 
 
 MORE
