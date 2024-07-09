@@ -74,7 +74,9 @@ Choose **Call Another Workflow**.
 
 Configure the *outgoing* **Execute Workflow** node as follows:
 
+![Screenshot 2024-07-09 at 17 03 11](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/a308032d-41ba-4627-94c7-0ae73057b4fb)
 
+**Note**: For the source we choose the n8n Database itself, where it keeps record of all its workflows. The Worflow ID is a copy of the end of the direct URL (here: https://wvanheemstra.app.n8n.cloud/workflow/OICEEpfNhsv5uytm) to the **Activity Data Management Workflow**. Also, we choose to **Run once with all items**.
 
 
 MORE
