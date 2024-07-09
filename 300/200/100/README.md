@@ -14,8 +14,10 @@ Open the **Edit Fields** node and add three values of ```String type```. For eac
 
 Close the **Edit Fields** node dialogue and confirm to save the changes. 
 
-![Screenshot 2024-07-09 at 11 07 55](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/5d2167ac-9469-4e88-a489-3bd90247e7e7)
+![Screenshot 2024-07-09 at 11 07 55](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/47fe3929-fe62-4af4-a1b7-3d93819e5110)
 
 Now that we have structured the data in a way that would correspond to the columns in **Airtable**, let's add the **Airtable** node and connect it with the **Edit Fields** node.
+
+![Screenshot 2024-07-09 at 11 10 49](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/15dae71b-eb65-4072-9e5f-7189ad17ac50)
 
 MORE
