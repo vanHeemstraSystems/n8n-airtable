@@ -26,6 +26,8 @@ When prompted, choose **Create or update a record**.
 
 Open the **Airtable** node and enter your credentials. You can find the API key by following the steps mentioned on this page: https://docs.n8n.io/credentials/airtable/.
 
+**WARNING**: n8n previously supported an API key authentication method with Airtable. Airtable fully deprecated these keys as of February 2024. If you were using an Airtable API credential, replace it with an Airtable Personal Access Token or Airtable OAuth2 credential. n8n recommends using Personal Access Token instead.
 
+Hence, create a Personal Access Token (PAT) in Airtable.
 
 MORE
