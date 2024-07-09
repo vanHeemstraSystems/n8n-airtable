@@ -20,4 +20,12 @@ Now that we have structured the data in a way that would correspond to the colum
 
 ![Screenshot 2024-07-09 at 11 10 49](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/15dae71b-eb65-4072-9e5f-7189ad17ac50)
 
+When prompted, choose **Create or update a record**.
+
+![Screenshot 2024-07-09 at 11 14 47](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/ac4cd592-a0ac-48b4-acca-0ae6cc7a080c)
+
+Open the **Airtable** node and enter your credentials. You can find the API key by following the steps mentioned on this page: https://docs.n8n.io/credentials/airtable/.
+
+
+
 MORE
