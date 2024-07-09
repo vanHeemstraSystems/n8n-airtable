@@ -156,7 +156,7 @@ And we run the **Test step** of the **Airtable** node:
 
 And lastly, we look into the table at Airtable to see a new record for the **Commute** activity, whilst the **Lunch** activity is also still there.
 
-
+![Screenshot 2024-07-09 at 14 57 19](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/9a67818f-b698-4c02-9799-390a34d2b896)
 
 Hooray, our logic works as designed!
 
