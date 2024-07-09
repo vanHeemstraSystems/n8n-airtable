@@ -30,4 +30,27 @@ Next, choose **Call Another Workflow**.
 
 Try it, by clicking **Test step**.
 
+As a temporary solution, add a **Edit Fields** node to the **Activity API Management** node. 
 
+![Screenshot 2024-07-09 at 16 32 52](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/294c749a-d63c-4026-817f-c4e54c31a625)
+
+Created the familiar three fields:
+
+- **Activity ID** = 3
+- **Activity Name** = Breakfast
+- **Activity Status** = Not Started
+
+![Screenshot 2024-07-09 at 16 39 53](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/08057786-5aed-4124-aa52-199b5748f552)
+
+Try it, by clicking **Test step**.
+
+![Screenshot 2024-07-09 at 16 41 17](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/107d2720-484c-4977-b958-13e057d13db4)
+
+Connect the **Edit Fields** node to the **Execute Workflow** node.
+
+
+
+
+
+
+MORE
