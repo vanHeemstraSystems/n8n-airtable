@@ -1,6 +1,6 @@
 # 100 - Create a sub workflow in n8n
 
-In n8n, create a new workflow and name it **Activity Management**.
+In n8n, create a new workflow and name it **Activity Management**. *This will become a sub workflow of **Activity API Management**.*
 
 ![Screenshot 2024-07-09 at 15 44 30](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/2b42d94f-df1c-404c-b1b1-52e752b21e32)
 
