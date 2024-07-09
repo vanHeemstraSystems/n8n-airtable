@@ -24,9 +24,9 @@ Choose to add a new node of type **Execute Workflow**.
 
 Next, choose **Call Another Workflow**.
 
-![Screenshot 2024-07-09 at 15 56 20](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/6a762e64-bce4-44d2-90b6-414f06c0bff2)
+![Screenshot 2024-07-09 at 16 23 21](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/26fcbbca-93d6-4511-9aec-c4da32102c70)
 
-**Note**: The Worflow ID is a copy of the end of the direct URL to the **Activity Management Workflow**. Also, we choose to **Run once with all items**.
+**Note**: For the source we choose the n8n Database itself, where it keeps record of all its workflows. The Worflow ID is a copy of the end of the direct URL (here: https://wvanheemstra.app.n8n.cloud/workflow/HjExDX7NwHJTSTVg) to the **Activity Management Workflow**. Also, we choose to **Run once with all items**.
 
 Try it, by clicking **Test step**.
 
