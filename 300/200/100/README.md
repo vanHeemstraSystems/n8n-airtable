@@ -30,4 +30,16 @@ Open the **Airtable** node and enter your credentials. You can find the API key 
 
 Hence, create a Personal Access Token (PAT) in Airtable.
 
+## Using personal access token
+To configure this credential, you'll need:
+
+- A Personal Access Token: Follow the instructions to Find/create PATs in the [Airtable documentation](https://support.airtable.com/docs/creating-personal-access-tokens#understanding-the-basics-of-personal-access-tokens) to get a Personal Access Token (PAT).
+- n8n recommends using the following Scopes for your PAT:
+
+```
+data.records:read
+data.records:write
+schema.bases:read
+```
+
 MORE
