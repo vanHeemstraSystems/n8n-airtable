@@ -58,5 +58,23 @@ Open the **Execute Workflow** node and run the **Test step**.
 
 You'll see that the values have been forwarded, to end up at the workflow **Activity Management**.
 
+Although there is no visible output, we can still conclude that the workflow **Activity Management**n was successfully triggered by our workflow **Activity API Management** as the executions of the workflow **Activity Management** has increased by one:
+
+![Screenshot 2024-07-09 at 16 52 45](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/b5d3da5b-6223-4ca0-b1da-d03c6e8db0bd)
+
+Next, let's trigger the workflow **Activity Data Management** from the workflow **Activity Management** to store the values.
+
+In the workflow **Activity Management** add an **Execute Workflow** node.
+
+![Screenshot 2024-07-09 at 16 58 56](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/7cb5350a-c2ec-40d9-b6be-f75ab2882b39)
+
+Choose **Call Another Workflow**.
+
+![Screenshot 2024-07-09 at 17 01 17](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/4c61c1d3-899c-4014-be0b-71327e175ab4)
+
+Configure the *outgoing* **Execute Workflow** node as follows:
+
+
+
 
 MORE
