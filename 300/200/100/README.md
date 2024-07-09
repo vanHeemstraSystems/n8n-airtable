@@ -84,7 +84,11 @@ Not only will the new credential be saved, but the connection (with Airtable) wi
 
 Luckily, the connection tested successful!
 
-Close the dialog with the **X** in the top right corner.
+Close the new credential dialog with the **X** in the top right corner.
+
+We'll be back at the Parameters tab:
+
+![Screenshot 2024-07-09 at 12 03 00](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/edebb100-23f2-43c8-9401-8d04ae16f049)
 
 
  
