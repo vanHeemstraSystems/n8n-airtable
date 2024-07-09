@@ -78,4 +78,14 @@ In the new credential dialogue, choose **Access Token** and paste the previously
 
 Check that the scope is right and click **Save**.
 
+Not only will the new credential be saved, but the connection (with Airtable) will also be tested.
+
+![Screenshot 2024-07-09 at 11 57 24](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/74c4d272-8904-4cd1-934a-b55732315c94)
+
+Luckily, the connection tested successful!
+
+Close the dialog with the **X** in the top right corner.
+
+
+ 
 MORE
