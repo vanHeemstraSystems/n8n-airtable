@@ -72,7 +72,7 @@ Back in n8n, click **Select Credential** followed by **Create New Credential**.
 
 ![Screenshot 2024-07-09 at 11 50 02](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/ffe944c9-d979-4eb2-86d9-63b019bdea2b)
 
-In the new credential dialogue, choose **Access Token** and paste the previously saved Airtable Personal Access Token (```n8n_Personal_Access_Token```) in the textbox. 
+In the new credential dialogue, choose **Access Token** and paste the previously saved value of the Airtable Personal Access Token (```n8n_Personal_Access_Token```) in the textbox. 
 
 ![Screenshot 2024-07-09 at 11 52 27](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/109566b1-0a29-43c3-b7d4-abc84166d3dc)
 
