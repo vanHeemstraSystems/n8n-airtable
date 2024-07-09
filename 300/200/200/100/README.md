@@ -1,4 +1,4 @@
-# 100 - Create a composition workflow in n8n
+# 100 - Create a sub workflow in n8n
 
 In n8n, create a new workflow and name it **Activity Management**.
 
@@ -26,7 +26,7 @@ Next, choose **Call Another Workflow**.
 
 ![Screenshot 2024-07-09 at 15 56 20](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/6a762e64-bce4-44d2-90b6-414f06c0bff2)
 
-**Note**: The Worflow URL is a copy of the direct URL to the **Activity Management Workflow**. Also, we choose ot **Run once with all items**.
+**Note**: The Worflow ID is a copy of the end of the direct URL to the **Activity Management Workflow**. Also, we choose to **Run once with all items**.
 
 Try it, by clicking **Test step**.
 
