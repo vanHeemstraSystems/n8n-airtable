@@ -6,10 +6,10 @@ Create a new workflow **Activity Data Management** and add  a **Set** node to it
 
 Open the **Set** node and add three values of ```String type```. For each of these three values, do the following.
 
-- In the **Activity ID** field, enter the same name of the column in the **Airtable** table (here: ```Activity ID```). Toggle the **Keep Only Set** button to ```true``` (green). In the **Value** field, enter a unique number (e.g. **1**).
-- In the **Activity Name** field, enter the same name of the column in the **Airtable** table (here: ```Activity Name```).  Toggle the **Keep Only Set** button to ```true``` (green). In the **Value** field, enter an activity name (e.g. **Lunch**).
-- In the **Activity Status** field, enter the same name of the column in the **Airtable** table (here: ```Activity Status```).  Toggle the **Keep Only Set** button to ```true``` (green). In the **Value** field, enter an activity status (e.g. **Done**).
+- In the **Activity ID** field, enter the same name of the column in the **Airtable** table (here: ```Activity ID```). In the **Value** field, enter a unique number (e.g. **1**).
+- In the **Activity Name** field, enter the same name of the column in the **Airtable** table (here: ```Activity Name```). In the **Value** field, enter an activity name (e.g. **Lunch**).
+- In the **Activity Status** field, enter the same name of the column in the **Airtable** table (here: ```Activity Status```). In the **Value** field, enter an activity status (e.g. **Not Started**).
 
-
+![Screenshot 2024-07-09 at 10 29 27](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/cd5ecc53-be1d-4b3f-b60c-b1ede8ba9b5f)
 
 MORE
