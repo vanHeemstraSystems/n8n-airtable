@@ -62,6 +62,10 @@ And limit your Personal Access Token to our **Activity Management** Airtable.
 
 Click **Create token**.
 
+![Screenshot 2024-07-09 at 11 38 40](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/33782b47-bf07-4f4c-af5a-11d46bff4639)
+
+**WARNING**: Make sure you have copied the value of the Personal Access Token (PAT) - here masked for security reasons - somewhere safe where (only you) can retrieve it later on when it is needed!
+
 
 
 MORE
