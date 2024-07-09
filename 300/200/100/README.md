@@ -104,6 +104,16 @@ By dragging, the values are automatically translated to JSON input parameters.
 
 Next, click **Test step** to verify the validity of our entries.
 
+![Screenshot 2024-07-09 at 13 44 19](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/698e2b67-d17f-40c1-9b61-bb805e56da4b)
+
+The outcome of the test shows on the OUPUT side. The fields column lists all fields we transfered:
+
+- Activity ID: **1**
+- Activity Name: **Lunch**
+- Activity Status: **Not Started**
+
+The test tooks its values from the **Edit Fields** node and exported them to the **Airtable** node. The workflow is successful!
+
 
  
 MORE
