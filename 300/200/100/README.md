@@ -66,6 +66,10 @@ Click **Create token**.
 
 **WARNING**: Make sure you have copied the value of the Personal Access Token (PAT) - here masked for security reasons - somewhere safe where (only you) can retrieve it later on when it is needed!
 
+Click **Done**.
 
+Back in n8n, click **Select Credential** followed by **Create New Credential**.
+
+![Screenshot 2024-07-09 at 11 50 02](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/ffe944c9-d979-4eb2-86d9-63b019bdea2b)
 
 MORE
