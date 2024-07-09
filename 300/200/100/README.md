@@ -114,6 +114,14 @@ The outcome of the test shows on the OUPUT side. The fields column lists all fie
 
 The test tooks its values from the **Edit Fields** node and exported them to the **Airtable** node. The workflow is successful!
 
+Looking into the actual table of Airtable, called **Activity Management**, we see the newly created record for our values:
 
+![Screenshot 2024-07-09 at 13 51 09](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/994f341a-1b10-4c04-82fc-d726d3517bf6)
+
+Source: https://airtable.com/appI63Xr8LpmGwfHa/tblYqEmioADkLmzGX/viwUlLHouucu6Bdu6?blocks=hide
+
+**NOTE**: The empty records are a result of previous attempts to created records, when input values were still missing. These empty records can be deleted manually.
  
-MORE
+Lets try changing the ```Activiy Status``` in n8n from **Not Started** to **In Progress** and run our test again.
+
+
