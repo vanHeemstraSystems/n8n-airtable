@@ -12,6 +12,12 @@ Open the **Edit Fields** node and add three values of ```String type```. For eac
 
 ![Screenshot 2024-07-09 at 10 29 27](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/cd5ecc53-be1d-4b3f-b60c-b1ede8ba9b5f)
 
+Click **Test step** to verify if our entries in the form are correct.
+
+![Screenshot 2024-07-09 at 13 33 38](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/3a8281a8-e879-48da-84e2-f3f0258885a1)
+
+The OUTPUT side on the right shows the table with our values and column names correctly. The test ran successfully!
+
 Close the **Edit Fields** node dialogue and confirm to save the changes. 
 
 ![Screenshot 2024-07-09 at 11 07 55](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/47fe3929-fe62-4af4-a1b7-3d93819e5110)
