@@ -78,5 +78,18 @@ Configure the *outgoing* **Execute Workflow** node as follows:
 
 **Note**: For the source we choose the n8n Database itself, where it keeps record of all its workflows. The Worflow ID is a copy of the end of the direct URL (here: https://wvanheemstra.app.n8n.cloud/workflow/OICEEpfNhsv5uytm) to the **Activity Data Management Workflow**. Also, we choose to **Run once with all items**.
 
+Instead of having to go back to the parent workflow **Activity API Management**, we can make use of the INPUT option to Execute the workflow right there. Let's do so. Click **Execute Previous nodes**.
+
+![Screenshot 2024-07-09 at 17 10 23](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/17967d4d-b44d-4397-9e7c-8408092b944a)
+
+As the previous node was *empty*, the test ran but output was generated. That is OK, let's move on. **Save** the changes to the workflow **Activity Management**.
+
+We will go back all the way to the workflow **Activity API Management**.
+
+From here we run a **Test step** from within the **Execute Workflow** node.
+
+![Screenshot 2024-07-09 at 17 16 39](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/cf0c4b11-2f50-4c02-a41f-c4cdb6c1bfc1)
+
+Hey, why does it OUTPUT a different record from what its INPUT has been... ?
 
 MORE
