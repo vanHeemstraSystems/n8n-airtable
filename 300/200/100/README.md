@@ -94,7 +94,15 @@ Close the new credential dialog with the **X** in the top right corner.
 
 We'll be back at the Parameters tab:
 
-![Screenshot 2024-07-09 at 12 03 00](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/edebb100-23f2-43c8-9401-8d04ae16f049)
+![Screenshot 2024-07-09 at 13 38 19](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/af592a21-303b-47f0-9354-32d65ba7c1ec)
+
+Drag the fields on the INPUT side into the values on the form.
+
+![Screenshot 2024-07-09 at 13 41 05](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/c711d2f5-efd7-4ffb-88de-6574955f41a7)
+
+By dragging, the values are automatically translated to JSON input parameters.
+
+Next, click **Test step** to verify the validity of our entries.
 
 
  
