@@ -12,5 +12,7 @@ This is the dialog for this step.
 
 ![Screenshot 2024-07-09 at 15 41 41](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/564a4993-539c-4d01-bc23-59281a27ec79)
 
+Exit the dialog, but don't forget to **Save** it.
+
 For now let us head back to a previously created workflow **Activity API Management***.
 
