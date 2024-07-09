@@ -50,7 +50,7 @@ Connect the **Edit Fields** node to the **Execute Workflow** node by dragging th
 
 ![Screenshot 2024-07-09 at 16 43 06](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/9d1ac35a-4c5e-443c-9a85-06c0687f0f57)
 
-
+Don't forget to **Save** the workflow.
 
 
 MORE
