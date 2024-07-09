@@ -42,4 +42,8 @@ data.records:write
 schema.bases:read
 ```
 
+![Screenshot 2024-07-09 at 11 27 03](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/053c59eb-543e-45e4-9553-8236a59b64e4)
+
+
+
 MORE
