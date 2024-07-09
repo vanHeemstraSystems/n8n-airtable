@@ -124,4 +124,41 @@ Source: https://airtable.com/appI63Xr8LpmGwfHa/tblYqEmioADkLmzGX/viwUlLHouucu6Bd
  
 Lets try changing the ```Activiy Status``` in n8n from **Not Started** to **In Progress** and run our test again.
 
+![Screenshot 2024-07-09 at 13 58 16](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/a8eb192a-a01a-4473-a54d-ba095c8afac7)
+
+Click **Test step** and you will see the OUTPUT side update the Activity Status from **Done** to **In Progress**.
+
+![Screenshot 2024-07-09 at 13 58 16](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/ecd5ab8e-1a6c-4ef9-a89b-247fcbc5a7c1)
+
+Now let us also run the **Airtable** node, based on the new Activity Status.
+
+![Screenshot 2024-07-09 at 14 02 07](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/adf48c3d-e71c-4b86-a8ec-bdc1efa051f9)
+
+As you can see below the OUTPUT has been updated.
+
+![Screenshot 2024-07-09 at 14 03 46](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/b46601d4-7a8b-4cc0-8f7a-77f5322ddd34)
+
+Looking into the table of Airtable, to see if the existing record with Activity ID = 1 has been updated (as our intention) or a new record has been created (not intended), we see:
+
+![Screenshot 2024-07-09 at 14 06 40](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/34299cc8-f300-4f6c-966b-243dc617f418)
+
+The record has been successfully updated!
+
+In addition, let us add a new Activity (here: **Commute**) with an Activity ID of **2** and an Activity Status of **Done**.
+
+We run the **Test step** of the **Edit Fields** node:
+
+![Screenshot 2024-07-09 at 14 13 24](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/a73d5b80-429b-4a17-8729-c9722fb09bfe)
+
+And we run the **Test step** of the **Airtable** node:
+
+![Screenshot 2024-07-09 at 14 15 26](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/76381985-5581-493b-8970-4166636f7d53)
+
+And lastly, we look into the table at Airtable to see a new record for the **Commute** activity, whilst the **Lunch** activity is also still there.
+
+
+
+Hooray, our logic works as designed!
+
+
 
