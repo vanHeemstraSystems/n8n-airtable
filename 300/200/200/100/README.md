@@ -52,5 +52,11 @@ Connect the **Edit Fields** node to the **Execute Workflow** node by dragging th
 
 Don't forget to **Save** the workflow.
 
+Open the **Execute Workflow** node and run the **Test step**.
+
+![Screenshot 2024-07-09 at 16 49 00](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/142086f2-3984-4833-b18b-520f1ce80a1d)
+
+You'll see that the values have been forwarded, to end up at the workflow **Activity Management**.
+
 
 MORE
