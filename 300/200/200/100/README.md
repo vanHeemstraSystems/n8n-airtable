@@ -136,4 +136,8 @@ Furthermore, looking into the database, we see that the values have been correct
 
 ![Screenshot 2024-07-11 at 13 57 55](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/44f9d9dd-e399-4920-a803-945dd95a49cd)
 
+In order to execute our workflows from over the (Inter-)network, we'll connect out API nodes to the **Execute Workflow** node (parallell to the **Edit Fields** node) in the workflow **Activity API Management**. See below:
+
+== Image goes here ==
+
 MORE
