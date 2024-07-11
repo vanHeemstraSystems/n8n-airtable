@@ -108,6 +108,8 @@ Activity Name: Breakfast
 Activity Status: Not Started
 ```
 
+![Screenshot 2024-07-11 at 13 24 32](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/25d3b95b-5193-4a1a-83a0-efff2c1642a8)
+
 From here we run a **Test step** from within the **Execute Workflow** node.
 
 ![Screenshot 2024-07-09 at 17 16 39](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/cf0c4b11-2f50-4c02-a41f-c4cdb6c1bfc1)
