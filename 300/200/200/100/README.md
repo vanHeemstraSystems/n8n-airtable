@@ -94,6 +94,14 @@ Activity Status: Done
 
 ![Screenshot 2024-07-11 at 13 06 06](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/8486466a-9fc5-49c4-85fb-feb3b4768484)
 
+As we will be sourcing our data from the workflow **Activity API Management**, we remove the **Edit Fields** node from the workflow **Activity Data Management** as follows:
+
+![Screenshot 2024-07-11 at 14 01 11](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/ca1914f4-6c8e-403d-84ec-5655844226fd)
+
+The **Airtable** node in the workflow **Activity Data Management** now looks like this:
+
+== IMAGE GOES HERE ==
+
 We will go back all the way to the workflow **Activity API Management**. 
 
 **IMPORTANT**: As the latest data has not yet been showing up in the INPUT side of the **Execute Workflow** node of the workflow **Activity API Management**.
