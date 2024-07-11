@@ -87,14 +87,28 @@ As the previous node was *empty*, the test ran but output was generated. That is
 **IMPORTANT**: As the latest data has not yet been showing up in the INPUT side of the **Airtable** node of the workflow **Activity Data Management**, execute the INPUT to watch the latest data being displayed:
 
 ```
-Activity ID: 3
+Activity ID: 2
 Activity Name: Commute
 Activity Status: Done
 ```
 
 ![Screenshot 2024-07-11 at 13 06 06](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/8486466a-9fc5-49c4-85fb-feb3b4768484)
 
-We will go back all the way to the workflow **Activity API Management**. From here we run a **Test step** from within the **Execute Workflow** node.
+We will go back all the way to the workflow **Activity API Management**. 
+
+**IMPORTANT**: As the latest data has not yet been showing up in the INPUT side of the **Execute Workflow** node of the workflow **Activity API Management**.
+
+== IMAGE GOES HERE ==
+
+Execute the INPUT to watch the latest data being displayed:
+
+```
+Activity ID: 3
+Activity Name: Breakfast
+Activity Status: Not Started
+```
+
+From here we run a **Test step** from within the **Execute Workflow** node.
 
 ![Screenshot 2024-07-09 at 17 16 39](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/cf0c4b11-2f50-4c02-a41f-c4cdb6c1bfc1)
 
