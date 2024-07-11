@@ -112,7 +112,7 @@ Activity Status: Not Started
 
 From here we run a **Test step** from within the **Execute Workflow** node.
 
-== IMAGE GOES HERE ==
+![Screenshot 2024-07-11 at 13 56 12](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/ef2f7349-d39d-45c3-9dcc-c073b14bfd3c)
 
 You can see that the OUTPUT values are as expected:
 
