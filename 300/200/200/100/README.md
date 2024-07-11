@@ -92,7 +92,7 @@ Activity Name: Commute
 Activity Status: Done
 ```
 
-
+![Screenshot 2024-07-11 at 13 06 06](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/8486466a-9fc5-49c4-85fb-feb3b4768484)
 
 We will go back all the way to the workflow **Activity API Management**. From here we run a **Test step** from within the **Execute Workflow** node.
 
