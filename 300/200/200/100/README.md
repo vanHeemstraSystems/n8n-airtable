@@ -154,7 +154,7 @@ In **[Postman](https://learning.postman.com/docs/getting-started/installation/in
 https://wvanheemstra.app.n8n.cloud/webhook/api/v1/activity/change_status
 ```
 
-![Screenshot 2024-07-11 at 14 39 43](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/9f939e8d-48b4-478a-a582-4770038447fc)
+![Screenshot 2024-07-11 at 15 46 55](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/1a57ec78-ec55-40c1-b91f-381d09dd6b4b)
 
 In the body of the **POST** request are the parameters in JSON format:
 
