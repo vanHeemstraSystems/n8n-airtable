@@ -146,7 +146,7 @@ Recap the settings inside the **Change_Status** node as being:
 
 In order to test calling this **Change_Status** API, we''ll switch to the **Production URL**.
 
-In **Postman**, enter the below URL in a POST request:
+In **[Postman](https://learning.postman.com/docs/getting-started/installation/installation-and-updates/)**, enter the below URL in a POST request:
 
 ```
 https://wvanheemstra.app.n8n.cloud/webhook/api/v1/activity/change_status
