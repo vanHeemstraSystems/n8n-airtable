@@ -166,4 +166,11 @@ In the body of the **POST** request are the parameters in JSON format:
 
 Click **Send** in Postman to submit the request to our Production URL of n8n.
 
+
+We have received a warning ```Authorization data is wrong!```.
+
+Let's set up the right Authorization in Postman as follows:
+
+== IMAGE GOES HERE == 
+
 MORE
