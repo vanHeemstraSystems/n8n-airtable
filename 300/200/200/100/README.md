@@ -100,7 +100,7 @@ We will go back all the way to the workflow **Activity API Management**.
 
 ![Screenshot 2024-07-11 at 13 18 56](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/b9437934-5710-47dd-a695-962ab47bd746)
 
-Execute the INPUT to watch the latest data being displayed:
+Execute the INPUT by clicking **Execute previous nodes** to watch the latest data being displayed:
 
 ```
 Activity ID: 3
