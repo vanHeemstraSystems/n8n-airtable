@@ -138,6 +138,11 @@ Furthermore, looking into the database, we see that the values have been correct
 
 In order to execute our workflows from over the (Inter-)network, we'll connect first of all our **Change_Status** API node to the **Execute Workflow** node (parallell to the **Edit Fields** node) in the workflow **Activity API Management**. See below:
 
-== Image goes here ==
+![Screenshot 2024-07-11 at 14 14 46](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/3ce65d5c-afb8-4892-80f3-28fa88b535ab)
+
+Recap the settings inside the **Change_Status** node as being:
+
+== IMAGE GOES HERE ==
+
 
 MORE
