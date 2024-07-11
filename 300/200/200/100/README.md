@@ -166,11 +166,12 @@ In the body of the **POST** request are the parameters in JSON format:
 
 Click **Send** in Postman to submit the request to our Production URL of n8n.
 
+![Screenshot 2024-07-11 at 14 46 57](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/d150ebee-c82a-462e-8444-8f71d2918028)
 
 We have received a warning ```Authorization data is wrong!```.
 
 Let's set up the right Authorization in Postman as follows:
 
-== IMAGE GOES HERE == 
+== IMAGE GOES HERE ==  
 
 MORE
