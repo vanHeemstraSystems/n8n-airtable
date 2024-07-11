@@ -152,8 +152,18 @@ In **[Postman](https://learning.postman.com/docs/getting-started/installation/in
 https://wvanheemstra.app.n8n.cloud/webhook/api/v1/activity/change_status
 ```
 
+![Screenshot 2024-07-11 at 14 39 43](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/9f939e8d-48b4-478a-a582-4770038447fc)
 
+In the body of the **POST** request are the parameters in JSON format:
 
+```
+{
+  "Activity ID": 3,
+  "Activity Name": "Breakfast",
+  "Activity Status": "In Progress"
+}
+```
 
+Click **Send** in Postman to submit the request to our Production URL of n8n.
 
 MORE
