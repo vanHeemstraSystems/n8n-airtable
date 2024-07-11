@@ -122,4 +122,8 @@ Activity Name: Breakfast
 Activity Status: Done
 ```
 
+Furthermore, looking into the database, we see that the values have been correctly entered:
+
+== IMAGE GOES HERE ==
+
 MORE
