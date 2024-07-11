@@ -102,6 +102,8 @@ The **Airtable** node in the workflow **Activity Data Management** now looks lik
 
 == IMAGE GOES HERE ==
 
+Where **Mapping Column Mode** is now set to **Map Automatically**.
+
 We will go back all the way to the workflow **Activity API Management**. 
 
 **IMPORTANT**: As the latest data has not yet been showing up in the INPUT side of the **Execute Workflow** node of the workflow **Activity API Management**.
