@@ -100,7 +100,7 @@ As we will be sourcing our data from the workflow **Activity API Management**, w
 
 The **Airtable** node in the workflow **Activity Data Management** now looks like this:
 
-== IMAGE GOES HERE ==
+![Screenshot 2024-07-11 at 14 07 07](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/af4c27d0-f885-4676-b145-2969e26ef54c)
 
 Where **Mapping Column Mode** is now set to **Map Automatically**.
 
