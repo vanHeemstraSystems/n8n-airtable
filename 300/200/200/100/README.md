@@ -124,6 +124,6 @@ Activity Status: Done
 
 Furthermore, looking into the database, we see that the values have been correctly entered:
 
-== IMAGE GOES HERE ==
+![Screenshot 2024-07-11 at 13 57 55](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/44f9d9dd-e399-4920-a803-945dd95a49cd)
 
 MORE
