@@ -142,7 +142,18 @@ In order to execute our workflows from over the (Inter-)network, we'll connect f
 
 Recap the settings inside the **Change_Status** node as being:
 
-== IMAGE GOES HERE ==
+![Screenshot 2024-07-11 at 14 18 59](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/8a8f93c2-e9b3-4fc9-9f1e-de4219270eb9)
+
+In order to test calling this **Change_Status** API, we''ll switch to the **Production URL**.
+
+In **Postman**, enter the below URL in a POST request:
+
+```
+https://wvanheemstra.app.n8n.cloud/webhook/api/v1/activity/change_status
+```
+
+
+
 
 
 MORE
