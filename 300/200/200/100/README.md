@@ -140,6 +140,8 @@ In order to execute our workflows from over the (Inter-)network, we'll connect f
 
 ![Screenshot 2024-07-11 at 14 14 46](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/3ce65d5c-afb8-4892-80f3-28fa88b535ab)
 
+Make sure to **Save** the changes to the workflow!
+
 Recap the settings inside the **Change_Status** node as being:
 
 ![Screenshot 2024-07-11 at 14 18 59](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/8a8f93c2-e9b3-4fc9-9f1e-de4219270eb9)
