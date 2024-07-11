@@ -84,7 +84,13 @@ Instead of having to go back to the parent workflow **Activity API Management**,
 
 As the previous node was *empty*, the test ran but output was generated. That is OK, let's move on. **Save** the changes to the workflow **Activity Management**.
 
-We will go back all the way to the workflow **Activity API Management**.
+We will go back all the way to the workflow **Activity API Management**. **IMPOORTANT**: As the latest data has not yet been shwoing up in the INPUT side of this node, execute the INPUT to watch the latest data being displayed:
+
+```
+Activity ID: 3
+Activity Name: Commute
+Activity Status: Done
+```
 
 From here we run a **Test step** from within the **Execute Workflow** node.
 
