@@ -84,7 +84,7 @@ Instead of having to go back to the parent workflow **Activity API Management**,
 
 As the previous node was *empty*, the test ran but output was generated. That is OK, let's move on. **Save** the changes to the workflow **Activity Management**.
 
-We will go back all the way to the workflow **Activity API Management**. **IMPOORTANT**: As the latest data has not yet been shwoing up in the INPUT side of this node, execute the INPUT to watch the latest data being displayed:
+**IMPORTANT**: As the latest data has not yet been showing up in the INPUT side of the **Airtable** node of the workflow **Activity Data Management**, execute the INPUT to watch the latest data being displayed:
 
 ```
 Activity ID: 3
@@ -92,11 +92,11 @@ Activity Name: Commute
 Activity Status: Done
 ```
 
-From here we run a **Test step** from within the **Execute Workflow** node.
+
+
+We will go back all the way to the workflow **Activity API Management**. From here we run a **Test step** from within the **Execute Workflow** node.
 
 ![Screenshot 2024-07-09 at 17 16 39](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/cf0c4b11-2f50-4c02-a41f-c4cdb6c1bfc1)
 
-Hey, why does it OUTPUT a different record from what its INPUT has been... ? That is because 
-**Edit Fields** is still in front of the workflow **Activity Data Management**. Fix it.
 
 MORE
