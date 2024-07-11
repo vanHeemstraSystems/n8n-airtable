@@ -98,7 +98,7 @@ We will go back all the way to the workflow **Activity API Management**.
 
 **IMPORTANT**: As the latest data has not yet been showing up in the INPUT side of the **Execute Workflow** node of the workflow **Activity API Management**.
 
-== IMAGE GOES HERE ==
+![Screenshot 2024-07-11 at 13 18 56](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/b9437934-5710-47dd-a695-962ab47bd746)
 
 Execute the INPUT to watch the latest data being displayed:
 
