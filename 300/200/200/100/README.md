@@ -184,8 +184,23 @@ Under the **Headers** tab, enter a key of **X-N8N-API-KEY** with a value of the 
 
 Don't forget to click **Save**!
 
-Now click **Send again**
+Now click **Send** again.
 
-== IMAGE GOES HERE ==  
+![Screenshot 2024-07-12 at 09 38 47](https://github.com/user-attachments/assets/972e626b-c10b-4162-b18a-2bccc7b9f813)
+
+The response is:
+
+```
+{
+    "code": 404,
+    "message": "The requested webhook \"api/v1/activity/change_status\" is not registered.",
+    "hint": "Click the 'Test workflow' button on the canvas, then try again. (In test mode, the webhook only works for one call after you click this button)"
+}
+```
+
+Follow the advice of the response and click **Test workflow** on the canvas of the workflow **Activity API Management**.
+
+== IMAGE GOES HERE ==
+
 
 MORE
