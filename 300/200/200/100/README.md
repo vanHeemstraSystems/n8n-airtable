@@ -128,6 +128,14 @@ We do **not** want the workflows (parent and subs) to state to be successful if 
 
 Hence, let us go back to the **Execute Workflow** node of the workflow **Activity Management** and make sure that **Wait For Sub-Workflow Completion** is set to **On***.
 
+![Screenshot 2024-07-12 at 16 00 50](https://github.com/user-attachments/assets/107017f2-0065-476a-bf18-b7dbf893bca2)
+
+Make sure to **save** this workflow!
+
+For the same reason, let us go back to the **Execute Workflow** node of the workflow **Activity API Management** and make sure that **Wait For Sub-Workflow Completion** is set to **On***.
+
+
+
 
 
 
