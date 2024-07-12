@@ -204,8 +204,8 @@ Follow the advice of the response and click **Test workflow** on the canvas of t
 
 The status of the workflow changes to **Waiting for trigger event**.
 
-== IMAGE GOES HERE ==
+![Screenshot 2024-07-12 at 09 47 23](https://github.com/user-attachments/assets/71e7aa4e-a8eb-4602-8e0e-3af1eae4a459)
 
-Now click **Send** again.
+In Postman, click **Send** again.
 
 MORE
