@@ -96,9 +96,9 @@ Activity Status: Done
 
 As we will be sourcing our data from the workflow **Activity API Management**, we replace the **Edit Fields** node by an **Execute Worflow Trigger** node from the workflow **Activity Data Management** as follows:
 
+![Screenshot 2024-07-12 at 15 40 04](https://github.com/user-attachments/assets/52329e43-f7b7-4341-81e4-faf8e6676336)
 
-
-
+The **Execute Workflow Trigger** node in the workflow **Activity Data Management** should look like this:
 
 
 
