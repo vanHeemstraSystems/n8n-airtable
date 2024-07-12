@@ -144,20 +144,23 @@ In order to execute our workflows from over the (Inter-)network, we'll connect f
 
 Make sure to **Save** the changes to the workflow!
 
+Change the settings inside the **Change_Status** node by *temporarily* switching **Authentication** to **None**:
 
-## =========== DEPRECATED BELOW THIS LINE ============
+![Screenshot 2024-07-12 at 16 14 40](https://github.com/user-attachments/assets/d935d692-d10b-4402-a96b-1a45e3d6545f)
 
-Recap the settings inside the **Change_Status** node as being:
-
-![Screenshot 2024-07-11 at 14 18 59](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/8a8f93c2-e9b3-4fc9-9f1e-de4219270eb9)
+**Save** the changes to the workflow.
 
 In order to test calling this **Change_Status** API, we''ll switch to the **Production URL**.
+
+== IMAGE GOES HERE ==
 
 In **[Postman](https://learning.postman.com/docs/getting-started/installation/installation-and-updates/)**, enter the below URL in a POST request:
 
 ```
 https://wvanheemstra.app.n8n.cloud/webhook/api/v1/activity/change_status
 ```
+
+## =========== DEPRECATED BELOW THIS LINE ============
 
 ![Screenshot 2024-07-11 at 15 46 55](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/1a57ec78-ec55-40c1-b91f-381d09dd6b4b)
 
