@@ -174,6 +174,23 @@ We have received a warning ```Authorization data is wrong!```.
 
 Let's set up the right Authorization in Postman as follows:
 
+Under the **Authorization** tab, choose **Basic Authentication**, for username enter your email address (here: ```wvanheemstra@icloud.com```) with which you are registered by n8n. For the password enter the API Key that you created in n8n earlier (here: ```n8n_api_7c3***************************```).
+
+== IMAGE GOES HERE ==
+
+Under the **Headers** tab, enter a key of **X-N8N-API-KEY** with a value of the same API key you created in n8n earlier (here: ```n8n_api_7c3***************************```).
+
+== IMAGE GOES HERE ==
+
+Don't forget to click **Save**!
+
+Now click **Send again**
+
+
+
+
+
+
 == IMAGE GOES HERE ==  
 
 MORE
