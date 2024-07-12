@@ -176,6 +176,18 @@ In the body of the **POST** request are the parameters as key value pairs:
 
 Click **Send** in Postman to submit the request to our Production URL of n8n.
 
+![Screenshot 2024-07-12 at 16 37 48](https://github.com/user-attachments/assets/82057e76-57a8-4425-ad62-8c099b567369)
+
+Hooray! We get back what we expected: **200 OK**.
+
+Looking in the Airtable database we can see the changed status of the Breakfast activity being set to **In Progress**.
+
+== IMAGE GOES HERE ==
+
+Let's look at the executions of the various n8n workflows we have triggered, to see their individual results.
+
+MORE ...
+
 ## =========== DEPRECATED BELOW THIS LINE ============
 
 
