@@ -100,6 +100,10 @@ As we will be sourcing our data from the workflow **Activity API Management**, w
 
 The **Execute Workflow Trigger** node in the workflow **Activity Data Management** should look like this:
 
+![Screenshot 2024-07-12 at 15 43 28](https://github.com/user-attachments/assets/f2c8be80-a967-44b6-ab4b-58c2d1861228)
+
+And the **Airtable** node in the workflow **Activity Data Management** needs to be like this:
+
 
 
 ## ===== DEPRECATED BELOW THIS LINE =====
