@@ -148,33 +148,31 @@ Change the settings inside the **Change_Status** node by *temporarily* switching
 
 ![Screenshot 2024-07-12 at 16 14 40](https://github.com/user-attachments/assets/d935d692-d10b-4402-a96b-1a45e3d6545f)
 
-**Save** the changes to the workflow.
-
 In order to test calling this **Change_Status** API, we''ll switch to the **Production URL**.
 
-== IMAGE GOES HERE ==
+![Screenshot 2024-07-12 at 16 20 00](https://github.com/user-attachments/assets/cd889a2f-e599-4dc5-9b95-2d6b7548b0d5)
+
+**Save** the changes to the workflow.
 
 In **[Postman](https://learning.postman.com/docs/getting-started/installation/installation-and-updates/)**, enter the below URL in a POST request:
 
 ```
 https://wvanheemstra.app.n8n.cloud/webhook/api/v1/activity/change_status
 ```
+== IMAGE GOES HERE ==
+
+In the body of the **POST** request are the parameters as key value pairs:
+
+| Key | Value |
+| -- | -- |
+| Activity ID | 3 |
+| Activity Name | Breakfast |
+| Activity Status | In Progress |
+
+Click **Send** in Postman to submit the request to our Production URL of n8n.
 
 ## =========== DEPRECATED BELOW THIS LINE ============
 
-![Screenshot 2024-07-11 at 15 46 55](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/1a57ec78-ec55-40c1-b91f-381d09dd6b4b)
-
-In the body of the **POST** request are the parameters in JSON format:
-
-```
-{
-  "Activity ID": 3,
-  "Activity Name": "Breakfast",
-  "Activity Status": "In Progress"
-}
-```
-
-Click **Send** in Postman to submit the request to our Production URL of n8n.
 
 ![Screenshot 2024-07-11 at 14 46 57](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/d150ebee-c82a-462e-8444-8f71d2918028)
 
