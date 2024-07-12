@@ -200,7 +200,10 @@ The response is:
 
 Follow the advice of the response and click **Test workflow** on the canvas of the workflow **Activity API Management**.
 
+![Screenshot 2024-07-12 at 09 44 17](https://github.com/user-attachments/assets/b7acb510-2960-4f98-baf2-9346f3cbc3f8)
+
 == IMAGE GOES HERE ==
 
+Now click **Send** again.
 
 MORE
