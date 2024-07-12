@@ -176,7 +176,7 @@ Let's set up the right Authorization in Postman as follows:
 
 Under the **Authorization** tab, choose **Basic Authentication**, for username enter your email address (here: ```wvanheemstra@icloud.com```) with which you are registered by n8n. For the password enter the API Key that you created in n8n earlier (here: ```n8n_api_7c3***************************```).
 
-== IMAGE GOES HERE ==
+![Screenshot 2024-07-12 at 08 40 13](https://github.com/user-attachments/assets/bd009df4-c5d2-4e76-b4dd-a6f9638045d6)
 
 Under the **Headers** tab, enter a key of **X-N8N-API-KEY** with a value of the same API key you created in n8n earlier (here: ```n8n_api_7c3***************************```).
 
