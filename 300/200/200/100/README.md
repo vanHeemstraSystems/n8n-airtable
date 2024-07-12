@@ -180,16 +180,11 @@ Under the **Authorization** tab, choose **Basic Auth(entication)**, for Username
 
 Under the **Headers** tab, enter a key of **X-N8N-API-KEY** with a value of the same API key you created in n8n earlier (here: ```n8n_api_7c3***************************```).
 
-== IMAGE GOES HERE ==
+![Screenshot 2024-07-12 at 08 54 12](https://github.com/user-attachments/assets/ece79907-24f6-4c31-9bc8-d0055e53d10f)
 
 Don't forget to click **Save**!
 
 Now click **Send again**
-
-
-
-
-
 
 == IMAGE GOES HERE ==  
 
