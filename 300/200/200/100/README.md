@@ -104,17 +104,34 @@ The **Execute Workflow Trigger** node in the workflow **Activity Data Management
 
 And the **Airtable** node in the workflow **Activity Data Management** needs to be like this:
 
+![Screenshot 2024-07-12 at 15 46 02](https://github.com/user-attachments/assets/b3556285-08a4-44ef-a13c-8c3092ae2e93)
+
+Where **Mapping Column Mode** is set to **Map Each Column Manually**.
+
+We have adjusted the values for the **query** parameters that will come from the REST POST request as follows:
+
+```
+Activity ID: {{ $json["query"]"Activity ID"] }}
+```
+
+```
+Activity Name: {{ $json["query"]"Activity Name"] }}
+```
+
+```
+Activity Status: {{ $json["query"]"Activity Status"] }}
+```
+
+Make sure to **save** this workflow!
+
+We do **not** want the workflows (parent and subs) to state to be successful if any of them actually fails. 
+
+Hence, let us go back to the **Execute Workflow** node of the workflow **Activity Management** and make sure that **Wait For Sub-Workflow Completion** is set to **On***.
+
+
 
 
 ## ===== DEPRECATED BELOW THIS LINE =====
-
-![Screenshot 2024-07-11 at 14 01 11](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/ca1914f4-6c8e-403d-84ec-5655844226fd)
-
-The **Airtable** node in the workflow **Activity Data Management** now looks like this:
-
-![Screenshot 2024-07-11 at 14 07 07](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/af4c27d0-f885-4676-b145-2969e26ef54c)
-
-Where **Mapping Column Mode** is now set to **Map Automatically**.
 
 We will go back all the way to the workflow **Activity API Management**. 
 
