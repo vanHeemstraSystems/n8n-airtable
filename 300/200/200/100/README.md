@@ -182,7 +182,7 @@ Hooray! We get back what we expected: **200 OK**.
 
 Looking in the Airtable database we can see the changed status of the Breakfast activity being set to **In Progress**.
 
-== IMAGE GOES HERE ==
+![Screenshot 2024-07-12 at 16 42 55](https://github.com/user-attachments/assets/9f31b111-2821-4109-bc08-bb15097fe468)
 
 Let's look at the executions of the various n8n workflows we have triggered, to see their individual results.
 
