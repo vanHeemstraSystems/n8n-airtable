@@ -159,7 +159,8 @@ In **[Postman](https://learning.postman.com/docs/getting-started/installation/in
 ```
 https://wvanheemstra.app.n8n.cloud/webhook/api/v1/activity/change_status
 ```
-== IMAGE GOES HERE ==
+
+![Screenshot 2024-07-12 at 16 24 11](https://github.com/user-attachments/assets/4b3af537-6cd3-42cd-9b97-e21c610d6891)
 
 In the body of the **POST** request are the parameters as key value pairs:
 
