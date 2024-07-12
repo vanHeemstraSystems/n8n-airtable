@@ -156,7 +156,7 @@ In order to test calling this **Change_Status** API, we''ll switch to the **Prod
 
 **IMPORTANT**: Set the workflow **Activity API Manaqgement** to **Active** as we want to be connecting to the Production version of it.
 
-== IMAGE GOES HERE ==
+![Screenshot 2024-07-12 at 16 32 23](https://github.com/user-attachments/assets/604a9482-f27d-4f12-b2fa-9f442375a239)
 
 In **[Postman](https://learning.postman.com/docs/getting-started/installation/installation-and-updates/)**, enter the below URL in a POST request:
 
