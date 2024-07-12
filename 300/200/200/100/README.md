@@ -134,50 +134,18 @@ Make sure to **save** this workflow!
 
 For the same reason, let us go back to the **Execute Workflow** node of the workflow **Activity API Management** and make sure that **Wait For Sub-Workflow Completion** is set to **On***.
 
+![Screenshot 2024-07-12 at 16 06 18](https://github.com/user-attachments/assets/2fed40d7-ae53-4715-8c51-7964298acb48)
 
-
-
-
-
-## ===== DEPRECATED BELOW THIS LINE =====
-
-We will go back all the way to the workflow **Activity API Management**. 
-
-**IMPORTANT**: As the latest data has not yet been showing up in the INPUT side of the **Execute Workflow** node of the workflow **Activity API Management**.
-
-![Screenshot 2024-07-11 at 13 18 56](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/b9437934-5710-47dd-a695-962ab47bd746)
-
-Execute the INPUT by clicking **Execute previous nodes** to watch the latest data being displayed:
-
-```
-Activity ID: 3
-Activity Name: Breakfast
-Activity Status: Not Started
-```
-
-![Screenshot 2024-07-11 at 13 24 32](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/25d3b95b-5193-4a1a-83a0-efff2c1642a8)
-
-From here we run a **Test step** from within the **Execute Workflow** node.
-
-![Screenshot 2024-07-11 at 13 56 12](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/ef2f7349-d39d-45c3-9dcc-c073b14bfd3c)
-
-You can see that the OUTPUT values are as expected:
-
-```
-Activity ID: 3
-Activity Name: Breakfast
-Activity Status: Done
-```
-
-Furthermore, looking into the database, we see that the values have been correctly entered:
-
-![Screenshot 2024-07-11 at 13 57 55](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/44f9d9dd-e399-4920-a803-945dd95a49cd)
+Make sure to **save** this workflow as well!
 
 In order to execute our workflows from over the (Inter-)network, we'll connect first of all our **Change_Status** API node to the **Execute Workflow** node (parallell to the **Edit Fields** node) in the workflow **Activity API Management**. See below:
 
 ![Screenshot 2024-07-11 at 14 14 46](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/3ce65d5c-afb8-4892-80f3-28fa88b535ab)
 
 Make sure to **Save** the changes to the workflow!
+
+
+## =========== DEPRECATED BELOW THIS LINE ============
 
 Recap the settings inside the **Change_Status** node as being:
 
