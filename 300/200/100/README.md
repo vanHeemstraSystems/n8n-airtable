@@ -112,7 +112,7 @@ The outcome of the test shows on the OUPUT side. The fields column lists all fie
 - Activity Name: **Lunch**
 - Activity Status: **Not Started**
 
-The test tooks its values from the **Edit Fields** node and exported them to the **Airtable** node. The workflow is successful!
+The test took its values from the **Edit Fields** node and exported them to the **Airtable** node. The workflow is successful!
 
 Looking into the actual table of Airtable, called **Activity Management**, we see the newly created record for our values:
 
