@@ -30,7 +30,7 @@ Next, choose **Call Another Workflow**.
 
 Try it, by clicking **Test step**.
 
-As a temporary solution, add a **Edit Fields** node to the **Activity API Management** node. 
+As a temporary solution, add an **Edit Fields** node to the **Activity API Management** node. 
 
 ![Screenshot 2024-07-09 at 16 32 52](https://github.com/vanHeemstraSystems/n8n-airtable/assets/1499433/294c749a-d63c-4026-817f-c4e54c31a625)
 
